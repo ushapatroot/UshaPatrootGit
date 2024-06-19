@@ -51,6 +51,9 @@ public class GoogleSearchSteps {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.close();
 		
+		// this is to test git push and comitt
+		System.out.println("This is 1st change for git");
+		
 	}
 
 }

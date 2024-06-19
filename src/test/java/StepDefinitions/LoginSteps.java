@@ -26,6 +26,9 @@ public class LoginSteps {
 	@Then("user is logged in successfully")
 	public void user_is_logged_in_successfully() {
 	  System.out.println("Inside Step - user is logged in successfully");
+	  
+	// this is to test git push and comitt
+			System.out.println("This is 2nd change for git");
 	}
 
 	
